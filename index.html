@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Mersal Mohamed | Shortly URL shortening API Challenge</title>
+  </head>
+  <body>
+    <!--nav-->
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+        <div class="links" id="links">
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Resources</a></li>
+          </ul>
+          <ul>
+            <li><a href="">Login</a></li>
+            <li><a href="" class="active-link">Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="icon" id="icon">
+          <i class="fa fa-bars fa-lg"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!--header-->
+    <header>
+      <div class="container">
+        <div class="head-img">
+          <img src="images/illustration-working.svg" alt="" />
+        </div>
+        <div class="head-text">
+          <h1>More than just <br />shorter links</h1>
+          <p>
+            Build your brand's recognition and<br class="br-1" />
+            get detailed <br class="br-2" />insights on how your<br
+              class="br-3"
+            />
+            links are performing
+          </p>
+          <a href="#" class="active-link">Get Started</a>
+        </div>
+      </div>
+
+      <!--shorten-->
+
+      <div class="shorten" id='shortenDiv'>
+        <div class="container" >
+          <input
+            type="text"
+            name="shorten"
+            id="shorten"
+            placeholder="Shorten link here..."
+          />
+          <a href="#shorten" class="active-link" onclick="showLink()" id = 'shortenAnchor'>Shorten It!</a>
+        </div>
+      </div>
+    </header>
+
+
+    <!--statistics-->
+
+    <section class="statistics" id='show'>
+      <div class="stat-text">
+        <h2>Advanced Statistics</h2>
+        <p>
+          Track how your links are performing <br class="sm" />
+          across the web with <br class="lg" />our advanced<br class="sm" />
+          statistics dashboard
+        </p>
+      </div>
+      <div class="container">
+        <div class="cards">
+          <div class="card">
+            <div class="card-img">
+              <img src="images/icon-brand-recognition.svg" alt="recognition" />
+            </div>
+            <h3>Brand Recognition</h3>
+            <p>
+              Boost your brand recognition with <br class="lg sm" />
+              each click. Generic links don't<br class="sm" />
+              mean a <br class="lg" />
+              thing. Branded links help <br class="sm" />instil
+              <br class="lg" />
+              confidence in your content.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="images/icon-detailed-records.svg" alt="recognition" />
+            </div>
+            <h3>Detailed Records</h3>
+            <p>
+              Gain insights into who is clicking <br class="sm" />your
+              <br class="lg" />
+              links. Knowing when and<br class="sm" />
+              where <br class="lg" />
+              people engage with your <br class="sm" />content <br class="lg" />
+              helps inform better<br class="sm" />
+              decisions.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="images/icon-fully-customizable.svg" alt="recognition" />
+            </div>
+            <h3>Fully Customizable</h3>
+            <p>
+              improve brand awareness and <br class="lg sm" />
+              content discoverability through <br class="lg sm" />
+              customizeable links, supercharging <br class="lg sm" />
+              audience engagement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Get started-->
+    <section class="get-started">
+      <h3>Boost your links today</h3>
+      <a href="#start" class="active-link">Get Started</a>
+    </section>
+
+    <!--footer-->
+    <footer>
+      <div class="container">
+        <h3>Shortly</h3>
+        <div class="footer-links ">
+          <div class="f-link">
+            <h4>Features</h4>
+            <ul>
+              <li><a href="">Link Shortening</a></li>
+              <li><a href="">Branded Links</a></li>
+              <li><a href="">Analytics</a></li>
+            </ul>
+          </div>
+          <div class="f-link">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Developers</a></li>
+              <li><a href="">Support</a></li>
+            </ul>
+          </div>
+          <div class="f-link">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Our Team</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+          <ul class="social">
+            <li>
+              <a href="https://www.facebook.com/mersal.mohamed.9"
+                target="_blink"
+                ><img src="images/icon-facebook.svg" alt="facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/MersalMohamed20"
+                target="_blink"
+
+                ><img src="images/icon-twitter.svg" alt="facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#pinterset"
+                ><img src="images/icon-pinterest.svg" alt="facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#instagram"
+                ><img src="images/icon-instagram.svg" alt="facebook"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
